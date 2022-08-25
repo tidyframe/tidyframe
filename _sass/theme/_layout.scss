@@ -44,6 +44,10 @@
       font-size: 22px;
     }
   
+    @include dark-mode {
+      color: #eee;
+    }
+
     svg {
       height: 24px;
       @include on-palm {
