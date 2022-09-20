@@ -7,7 +7,7 @@ date: 2022-07-25 00:00:00 +0000
 author: Tidy Frame
 ---
 
-> 🎁 The app is currently in an early version. If you found bugs in app, please give us feedback and we will send you a Clip Jar Full Pack as a gift. Thank you for using our product.
+> The app is currently in an early version. If you found bugs in app, please give us feedback. Thank you for using our product.
 
 Mail: [feedback@tidyframe.com](mailto:feedback@tidyframe.com)
 
