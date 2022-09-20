@@ -7,7 +7,7 @@ date: 2022-07-25 00:00:00 +0000
 author: Tidy Frame
 ---
 
-> 目前便利签仍然在早期版本，如果你遇到了 BUG 或者不直观的功能，请与我们联系。谢谢你使用我们的产品 🙏。
+> 目前便利签仍然在早期版本，如果你遇到了 BUG 或者功能问题，请与我们联系。感谢使用我们的产品 🙏。
 
 邮箱: [feedback@tidyframe.com](mailto:feedback@tidyframe.com)
 

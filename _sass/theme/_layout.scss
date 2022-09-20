@@ -332,7 +332,7 @@
   column-gap: 56px;
 
   @include on-palm {
-    padding: 40px $unit * 4;
+    padding: 40px $unit * 2;
     justify-content: space-evenly;
   }
 
@@ -443,8 +443,8 @@
     justify-content: space-between;
 
     @include on-palm {
-      padding: 32px $unit * 6;
-      justify-content: center;
+      padding: 32px $unit * 4;
+      justify-content: space-between;
       column-gap: 32px;
     }
     
