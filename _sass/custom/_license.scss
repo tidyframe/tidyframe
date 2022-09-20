@@ -107,6 +107,8 @@
         word-break: normal;
         overflow-wrap: anywhere;
         font-size: 17px;
+        margin-bottom: $unit;
+        margin-top: 0;
 
         @include dark-mode {
             color: #ccc;
@@ -179,6 +181,10 @@
         li {
             margin-bottom: 6px;
         }
+    }
+
+    ul {
+        padding-left: 20px;
     }
 }
 

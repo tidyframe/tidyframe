@@ -24,7 +24,7 @@
 
                 <time class="license-date" class="dt-published" datetime="{{ page.date | date_to_xmlschema }}"
                     itemprop="datePublished">
-                    {{ page.date | date: site.data_formats.date_format_formal }}
+                    {{ page.date | date: "%b %d, %Y" }}
                 </time>
             </div>
 
