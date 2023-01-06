@@ -1,3 +1,3 @@
 # Home Page Of Tidy Frame
 
-[Click to visite](https://tidyframe.com)
+[Click to visit](https://tidyframe.com)
