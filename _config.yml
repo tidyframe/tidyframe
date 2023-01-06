@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tidy Frame
+title: Tidy Frame Studio
 email: feedback@tidyframe.com
-description: Tidy Frame App Studio
+description: Tidy Frame Studio
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tidyframe.com"
 author: Tidy Frame

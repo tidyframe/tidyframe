@@ -1,5 +1,5 @@
 .license {
-    max-width: 1024px;
+    max-width: 108 * $unit;
     margin-right: auto;
     margin-left: auto;
 
@@ -19,7 +19,7 @@
     }
 
     @include dark-mode {
-        background-color: #000;
+        background-color: #161616;
     }
 }
 
