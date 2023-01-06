@@ -115,6 +115,16 @@
     margin-left: auto;
     margin-right: auto;
 
+    &:not(:last-child) {
+      border-bottom: 1px solid #00000010;
+    }
+
+    @include dark-mode {
+      &:not(:last-child) {
+        border-bottom: 1px solid #ffffff10;
+      }
+    }
+
     .app-header {
 
       display: flex;
@@ -310,15 +320,6 @@
   }
 }
 
-.page-footer {
-  display: flex;
-  width: 100%;
-  font-size: 14px;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
 .resources-section {
   width: 100%;
   padding: 0;
@@ -427,6 +428,13 @@
 
 .page-footer {
 
+  display: flex;
+  width: 100%;
+  font-size: 14px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   .quote-section {
     display: flex;
     padding: 4px 0;
@@ -439,26 +447,30 @@
   .site-description-group {
     color: $grey-color;
     width: 100%;
-    font-weight: 450;
     text-align: center;
   }
-}
 
-.page-footer {
   .copyright-section {
     width: 100%;
     padding: 48px 8 * $unit;
     max-width: 108 * $unit;
-    font-weight: 450;
     color: $grey-color;
+    font-weight: 450;
     margin: 0;
     display: flex;
     justify-content: space-between;
 
     @include on-palm {
-      padding: 32px $unit * 4;
-      justify-content: space-between;
-      column-gap: 32px;
+      padding: 40px $unit * 4;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 8px;
+    }
+
+    p {
+      padding: 0;
+      margin: 0;
     }
 
     @include dark-mode {
