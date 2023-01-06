@@ -36,7 +36,7 @@
     margin: 0;
 
     color: black;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-family: "Poppins";
   
     @include dark-mode {
@@ -132,8 +132,8 @@
 
       .app-icon {
         img {
-          width: 10 * $unit;
-          height: 10 * $unit;
+          width: 9 * $unit;
+          height: 9 * $unit;
           display: block;
 
           @include on-palm {
@@ -143,12 +143,17 @@
         }
 
         border-radius: 16px;
-        box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+        // box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
         overflow: hidden;
-        margin-right: $unit * 4;
+        margin-right: $unit * 3;
+        border: 1px solid #00000010;
 
         @include on-palm {
           margin-right: $unit * 2;
+        }
+
+        @include dark-mode {
+          border: 1px solid #ffffff10;
         }
       }
 
@@ -160,7 +165,7 @@
         .app-name {
           font-size: 24px;
           margin: 0;
-          font-weight: 650;
+          font-weight: 600;
           padding: 0;
           color: #000;
 
@@ -178,19 +183,19 @@
         }
 
         .app-platform {
-          font-size: 18px;
+          font-size: 17px;
           display: flex;
           column-gap: 4px;
 
           .app-platform-badge {
             color: $grey-color;
-            padding: 2px 12px;
-            border-radius: 6px;
+            padding: 2px 16px;
+            border-radius: 5px;
             background-color: #f2f2f2;
 
             @include dark-mode {
               color: #eee;
-              background-color: #181818;
+              background-color: #222;
             }
           }
 
@@ -223,7 +228,7 @@
       }
 
       p {
-        font-size: 19px;
+        font-size: 18px;
         padding: 0;
         text-align: left;
         vertical-align: middle;
@@ -231,7 +236,8 @@
         margin: 0;
 
         @include on-palm {
-          font-size: 18px;
+          font-size: 17px;
+          line-height: 28px;
         }
       }
     }
@@ -441,7 +447,7 @@
 .page-footer {
   .copyright-section {
     width: 100%;
-    padding: 40px 8 * $unit;
+    padding: 48px 8 * $unit;
     max-width: 108 * $unit;
     font-weight: 450;
     color: $grey-color;
