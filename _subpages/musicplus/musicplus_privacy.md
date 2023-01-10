@@ -1,6 +1,6 @@
 ---
 title: Music Plus Privacy Policy
-permalink: "/musicplus/privacy/"
+permalink: "/MusicPlus/privacy/"
 layout: license
 nav_item: 22
 nav_title: Privacy

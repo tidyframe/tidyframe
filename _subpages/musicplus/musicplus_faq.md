@@ -2,7 +2,7 @@
 title: Music Plus FAQ
 layout: license
 nav_item: 31
-permalink: "musicplus/faq/"
+permalink: "MusicPlus/faq/"
 date: 2022-05-26 00:00:00 +0000
 author: Music Plus
 ---
